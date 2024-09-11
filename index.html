@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="logic.js" type="module" defer></script>
+</head>
+
+<body style="background-color: black">
+    <div class="quiz-container" >
+        <h1>Quizzy</h1>
+        <br>
+        <div class="quiz-header">
+            <h2 id="question"></h2>
+        </div>
+        <form class="quiz-form">
+            <div class="option">
+                <input type="radio" name="answer" id="a" class="answer" value="a">
+                <label for="a" id="a_text"></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="b" class="answer" value="b">
+                <label for="b" id="b_text"></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="c" class="answer" value="c">
+                <label for="c" id="c_text"></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="d" class="answer" value="d">
+                <label for="d" id="d_text"></label>
+            </div>
+            <button  id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
